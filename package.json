@@ -1,0 +1,32 @@
+{
+  "name": "client-dev",
+  "version": "1.0.0",
+  "description": "meditation & mindfulness app",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test",
+    "build": "webpack --mode prodution"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/immeasurable-vikrant/client-dev.git"
+  },
+  "author": "Vikrant Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/immeasurable-vikrant/client-dev/issues"
+  },
+  "homepage": "https://github.com/immeasurable-vikrant/client-dev#readme",
+  "devDependencies": {
+    "@babel/core": "^7.13.15",
+    "@babel/preset-env": "^7.13.15",
+    "@babel/preset-react": "^7.13.13",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.2.2",
+    "html-loader": "^2.1.2",
+    "html-webpack-plugin": "^5.3.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.33.2",
+    "webpack-cli": "^4.6.0"
+  }
+}
